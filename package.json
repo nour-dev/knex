@@ -70,7 +70,7 @@
     "esm": "^3.2.25",
     "get-package-type": "^0.1.0",
     "getopts": "2.3.0",
-    "interpret": "^2.2.0",
+    "interpret": "^3.0",
     "lodash": "^4.17.21",
     "pg-connection-string": "2.6.1",
     "rechoir": "^0.8.0",
@@ -147,9 +147,7 @@
     "tsd": "^0.28.1",
     "typescript": "5.0.4"
   },
-  "buildDependencies": [
-    "rimraf"
-  ],
+  "buildDependencies": ["rimraf"],
   "bin": {
     "knex": "./bin/cli.js"
   },
@@ -248,9 +246,7 @@
     "statements": 82,
     "functions": 83,
     "branches": 69,
-    "extension": [
-      ".js"
-    ],
+    "extension": [".js"],
     "exclude": [
       "lib/dialects/oracle",
       "lib/dialects/oracledb",
